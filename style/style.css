@@ -12,6 +12,7 @@ body{
   grid-template-columns: repeat(2,1fr);
     background-color: #2D25A0; 
     height:900px ;
+  
 }
 .part1-font{
     color: white;
@@ -38,4 +39,44 @@ margin-bottom: 240px;
     margin-top:153px ;
     margin-right: 140px;
     margin-bottom: 86px;
+}
+/* Part-two and players picture with bio part */
+
+.container-2{
+    padding-top: 70px;
+    /* display: grid;
+    grid-template-columns: repeat(3,1fr); */
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding-left:50px;
+
+}
+.players{
+    width: 50%;
+    border: 3px solid rgb(255, 252, 252);  
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 35px;
+  padding: 15px;
+  margin: 15px;
+ 
+ 
+  
+  
+}
+.player img{
+    width: 500px;
+   
+}
+.player{
+    font-size: 30px;
+
+    padding: 0px;
+    margin: 0px;
+    border: 25px solid rgb(251, 251, 251);
+      
+}
+.blog{
+    font-size:10px ;
 }
