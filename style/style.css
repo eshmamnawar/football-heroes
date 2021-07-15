@@ -116,3 +116,13 @@ padding-left: 770px
 footer p{
    text-align: center;
 }
+/* end */
+
+@media only screen and (max-width:688px ) {
+ .partone .players footer{
+     grid-template-columns:repeat(1,1fr)
+ }
+  .player .part1-font footer{
+flex-direction: column;
+  }  
+}
