@@ -14,6 +14,12 @@ body{
     height:900px ;
   
 }
+h1{
+    transition: transform 4s;
+}
+h1:hover{
+    transform:skew(180deg);
+}
 .part1-font{
     color: white;
     width: 100%;
@@ -23,15 +29,21 @@ body{
 margin-top: 207px;
 margin-bottom: 240px;
 }
+
 .button{
+    border: 1px solid;
     color: white;
     font-weight: 500px;
     font-size: 16px;
-    /* margin-left:156px; */
+    /* margin-left:156px ; */
     width: 120px;
     background-color:#E02C6D ;
    padding: 10px 10px;
+   transition: transform 2s ease-in-out;
 
+}
+.button:hover{
+    transform: rotate(360deg);
 }
 .banner-photo img{
     width:auto ;
@@ -40,38 +52,6 @@ margin-bottom: 240px;
     margin-right: 140px;
     margin-bottom: 86px;
 }
-/* Part-two and players picture with bio part */
-
-/* .container-2{
-    grid-template-columns: repeat(3,1fr); 
-   display: grid;
-    background-color: #FFFFFF;
-    padding-left:50px;
-
-}
-.players{
-    width: 50%;
-    border: 3px solid rgb(255, 252, 252);  
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  grid-gap: 35px;
-  padding: 15px;
-  margin: 15px; 
-}
-.player img{
-    width: 500px;
-   
-}
-.player{
-    font-size: 30px;
-    padding: 0px;
-    margin: 0px;
-    border: 25px solid rgb(251, 251, 251);
-      
-}
-.blog{
-    font-size:10px ;
-} */
 
 
 /* 2ND Part: Players picture and blog  */
@@ -99,4 +79,40 @@ margin-bottom: 240px;
     font-size: 15px;
     background: #FFFFFF;
 color: gray;
+}
+
+/* 3rd Part  */
+.logo-sign{
+margin: 0;
+max-width: 100%;
+align-items: center;
+}
+.logo img{
+    align-items: center;
+    justify-content:center;  
+width: 300px;
+padding-left: 770px
+;
+}
+.logo > .sign{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    /* padding: 0px 5px;
+    margin:0px 5px; */
+}
+.fa-twitter{
+    margin: 0px 2px;
+}
+.fa-facebook{
+    margin: 0px 2px;
+}
+.fa-youtube{
+    margin: 0px 2px;
+}
+.fa-instagram{
+    margin: 0px 2px;
+}
+footer p{
+   text-align: center;
 }
